@@ -1,5 +1,5 @@
 # Portfolio-Website
-A personal portfolio website built with *Flask, featuring multiple pages (Home, About, Projects, Contact) and a contact form that uses **flash messages* to display user feedback.
+A personal portfolio website built with Flask, featuring multiple pages (Home, About, Projects, Contact) and a contact form that uses *flash messages* to display user feedback.
 
 ## Features
 - Home, About, Projects, and Contact pages
