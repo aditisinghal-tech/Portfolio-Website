@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+
+                <div class="project-card">
+                    <h3>Snake Game – Python (Turtle Graphics)</h3>
+                    <p><em>"Old-school fun, coded from scratch!"</em>
+                    A classic Snake Game built using Python’s <strong>turtle</strong> module. Snake grows
+                    longer with each food eaten, score updates dynamically with <strong>high score</strong>
+                    saved between sessions, and the game ends on collision with walls or the snake’s own
+                    tail. Features simple retro-style graphics and smooth controls.
+                    </p>
+                    <p><strong>Tech Stack:</strong> Python, Turtle Graphics, File Handling</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Password Manager – Python (Tkinter)</h3>
+                    <p>
+                    A GUI-based password manager built with <strong>Tkinter</strong>, capable of
+                    generating strong random passwords, securely saving them in a <code>.json</code>
+                    file, and retrieving them via a search feature. Includes an automatic copy-to-clipboard
+                    mechanism using <strong>pyperclip</strong> and includes robust error handling.
+                    </p>
+                    <p><strong>Tech Stack:</strong> Python, Tkinter, JSON, Random, Pyperclip, Messagebox</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Pomodoro Timer – Python (Tkinter)</h3>
+                    <p>A GUI-based time management app to improve focus using the Pomodoro Technique. The app
+                        improves concentration, reduces burnout, and boosts productivity.</p>
+                    <ul>
+                        <li>25-minute work sessions with short and long breaks</li>
+                        <li>Visual tomato-themed countdown timer</li>
+                        <li>Reset functionality to restart sessions</li>
+                        <li>Checkmarks show completed work sessions</li>
+                    </ul>
+                    <p><strong>Tech Stack:</strong> Python, Tkinter, Math, Time Module</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
